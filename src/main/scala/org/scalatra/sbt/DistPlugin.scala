@@ -10,7 +10,7 @@ object DistPlugin extends Plugin {
 
   object DistKeys {
     val dist = TaskKey[File]("dist", "Build a distribution, assemble the files, create a launcher and make an archive.")
-    val stage = TaskKey[Seq[File]]("stage", "Build a distribution, assemble the files and create a launcher.")
+    val stage = TaskKey[Seq[File]]("scalatra-stage", "Build a distribution, assemble the files and create a launcher.")
     val assembleJarsAndClasses = TaskKey[Seq[File]]("assemble-jars-and-classes", "Assemble jars and classes")
     val memSetting = SettingKey[String]("mem-setting", "The maximium and initial heap size.")
     val permGenSetting = SettingKey[String]("perm-gen-setting", "The PermGen size.")

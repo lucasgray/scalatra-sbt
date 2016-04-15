@@ -1,12 +1,12 @@
-organization := "org.scalatra.sbt"
+organization := "com.beekeeperdata"
 
-name := "scalatra-sbt"
+name := "bk-scalatra-sbt"
 
 sbtPlugin := true
 
 publishMavenStyle := false
 
-version := "0.3.5"
+version := "0.3.6"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation")
 
